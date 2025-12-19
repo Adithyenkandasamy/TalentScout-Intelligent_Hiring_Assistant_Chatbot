@@ -1,4 +1,4 @@
-.PHONY: help install run docker-build docker-up docker-down
+.PHONY: help install run docker-build docker-up docker-down logs
 
 help:
 	@echo "Available commands:"
@@ -7,6 +7,7 @@ help:
 	@echo "  make docker-build  - Build the Docker image"
 	@echo "  make docker-up     - Run the app using Docker Compose"
 	@echo "  make docker-down   - Stop Docker Compose services"
+	@echo "  make logs          - View Docker Compose logs"
 
 install:
 	uv pip install -r requirements.txt
@@ -22,3 +23,6 @@ docker-up:
 
 docker-down:
 	docker-compose down
+
+logs:
+	docker-compose logs -f
