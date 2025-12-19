@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "skills": ["Python", "Machine Learning", "Data Analysis"],
+        "experience": 5,
+        "role": "Data Scientist"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "experience": 3,
+        "role": "Frontend Developer"
+    },
+    {
+        "id": 3,
+        "name": "Charlie Brown",
+        "skills": ["Java", "Spring Boot", "SQL"],
+        "experience": 7,
+        "role": "Backend Developer"
+    }
+]
