@@ -3,6 +3,7 @@ import google.generativeai as genai
 from prompts import SYSTEM_PROMPT, TECH_QUESTION_PROMPT
 from utils import is_exit_keyword
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
